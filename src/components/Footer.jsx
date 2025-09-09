@@ -4,13 +4,13 @@ import assets from "../assets/assets";
 const Footer = ({ theme }) => {
   return (
     <div
-      className="bg-white dark:bg-slate-900 pt-10 sm:pt-10 mt-20 sm:mt-40 px-4
+      className="bg-gray-300 dark:bg-slate-900 pt-10 sm:pt-10 mt-20 sm:mt-40 px-4
     sm:px-10 lg:px-24 xl:px-40"
     >
       {/* footer top */}
       <div className="flex justify-between lg:items-center max-lg:flex-col gap-10">
         {/* Left side (Logo + Menu) */}
-        <div className="space-y-5 text-sm text-gray-700 dark:text-gray-400">
+        <div className="space-y-5 text-sm text-black dark:text-gray-400">
           <img
             src={theme === "dark" ? assets.logo1 : assets.logo1}
             className="w-44 sm:w-48"
@@ -62,7 +62,7 @@ const Footer = ({ theme }) => {
           </p>
         </div>
       </div>
-      <hr className="border-gray-400 dark:border-gray-600 my-6" />
+      <hr className="border-black dark:border-gray-600 my-6" />
       <div className="pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap">
         <p className="text-gray-500 dark:text-white">
           © Copyright OpenBraces Ventures Private Limited. All Rights Reserved.
