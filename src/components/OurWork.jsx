@@ -56,7 +56,7 @@ const OurWork = () => {
           >
             <img src={work.image} className="w-full rounded-xl" alt="" />
             <h3 className="mt-2 mb-1 text-lg font-semibold">{work.title}</h3>
-            <p className="text-sm opacity-60 w-5/6 mb-3">{work.description}</p>
+            <p className="text-sm opacity-60 w-5/6 mb-4">{work.description}</p>
           </div>
         ))}
       </div>
