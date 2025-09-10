@@ -45,19 +45,12 @@ const Footer = ({ theme }) => {
         </div>
 
         {/* Right side (Address + Contact Info) */}
-        <div className="text-gray-600 dark:text-gray-400 space-y-4">
+        <div className="text-gray-800 dark:text-gray-400 space-y-4">
           <h3 className="font-semibold text-lg">Contact Us:</h3>
-          <p className="max-w-xs">
-            <span className="font-medium">Address:</span>
-            <br />
-            OpenBraces Ventures
-            <br />
-            Kolkata, West Bengal,India - 700151
-          </p>
+
           <p>
             <span className="font-medium">Phone:</span> +91 9681 446 840
-          </p>
-          <p>
+            <br />
             <span className="font-medium">Email:</span> connect@openbraces.in
           </p>
         </div>
